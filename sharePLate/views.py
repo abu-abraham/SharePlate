@@ -38,7 +38,7 @@ def get_specific(self,uid):
     queryset = Users.objects.get(uid=uid)
     org = queryset.organization
     collegues = Users.objects.filter(organization=org)
-    items = Foodlist.objects.filter(pub_by__in = collegues)
+    items = Foodlist.objects.filter(chef_id__in = collegues)
     serializer = FoodlistSerializer(items,many=True)
     response = JsonResponse(serializer.data,safe=False)
     return response;
@@ -46,12 +46,12 @@ def get_specific(self,uid):
 def set_order(self,uid,item_id):
     try:
         user = Users.objects.get(uid=uid)
-        item = Foodlist.objects.get(pub_by=item_id)
+        item = Foodlist.objects.get(item_id=item_id)
         item.count = item.count + 1
         #Item should have ID and a field to store customers
         item.save()
-        seller = Users.objects.get(uid=item.pub_by.uid)
-        seller.earnings = seller.earnings + 10  #TO be changed to price once its there
+        seller = Users.objects.get(uid=item.chef_id.uid)
+        seller.earnings = seller.earnings + item.price  #TO be changed to price once its there
         seller.save()
         x = {'result': 'success'}
         return JsonResponse(x)

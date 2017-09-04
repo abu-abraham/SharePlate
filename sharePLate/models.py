@@ -16,8 +16,8 @@ class Users (models.Model):
     username = models.CharField(max_length=15);
     email = models.EmailField();
     phone = models.CharField(max_length=12);
-    rating = models.BigIntegerField();
-    earnings = models.BigIntegerField();
+    rating = models.FloatField();
+    earnings = models.FloatField();
     uid = models.CharField(unique=True,max_length=30);
     name = models.CharField(max_length=25);
     organization = models.CharField(max_length=25);
@@ -30,12 +30,12 @@ class Users (models.Model):
 class Foodlist (models.Model):
     item_id = models.CharField(max_length=30)
     desc = models.CharField(max_length=100);
-    spice_level = models.BigIntegerField();
+    spice_level = models.FloatField();
     count = models.IntegerField();
     item_image = models.ImageField();
     availability = models.BooleanField(default=True);
     pub_date = models.DateField();
-    price = models.BigIntegerField();
+    price = models.FloatField();
     chef_id = models.ForeignKey(Users,on_delete=models.CASCADE);
     event_time = models.TimeField();
 
@@ -46,8 +46,8 @@ class Foodlist (models.Model):
 
 class UserPreference(models.Model):
     user = models.ForeignKey(Users,on_delete=models.CASCADE)
-    user_spice_level = models.BigIntegerField();
-    prefered_cost = models.BigIntegerField();
+    user_spice_level = models.FloatField();
+    prefered_cost = models.FloatField();
     prefered_time = models.TimeField();
 
 class Purchases (models.Model):
@@ -58,6 +58,8 @@ class Purchases (models.Model):
 class Badge (models.Model):
     user = models.ForeignKey(Users,on_delete=models.CASCADE)
     badge = models.CharField(max_length=15);
+
+
 
 
 #Can mark completed either by getting the location info or by time!
