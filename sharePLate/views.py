@@ -65,18 +65,29 @@ def get_userInfo(self,uid):
     response = JsonResponse(serializer.data)
     return response;
 
+'''export interface UserDetails {
+  id: string;
+  name: string;
+  picture_url: string;
+  email: string;
+  birthday: string;
+  work: any;
+  location: string;
+  education: any;
+}'''
+
 def update_userInfo(self,JSobject):
-    x = json.loads(JSobject, object_hook=lambda d: namedtuple('X', d.keys())(*d.values()))
-    uid = x.userId
+    UserDetails = json.loads(JSobject, object_hook=lambda d: namedtuple('X', d.keys())(*d.values()))
+    uid = UserDetails.id
 
     try:
         user = Users.objects.get(uid=uid)
     except:
-        username = x.username;
-        email = x.email #Can be null
-        organization = x.organization
-        number = x.phone
-        p = Users(username=username,email=email,phone=number,rating=0.0,earnings=0.0,uid=uid,name=username,organization=organization,image=None);
+        username = UserDetails.name;
+        email = UserDetails.email #Can be null
+        organization = "ANU"
+        image = UserDetails.picture_url
+        p = Users(username=username,email=email,phone=12345678,rating=0.0,earnings=0.0,uid=uid,name=username,organization=organization,image=image);
         p.save();
 
 
