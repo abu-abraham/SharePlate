@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "/home/abu/Documents/Personal/NativeScript/Groceries/SharePlate/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xxxhdpi/logo_login.png",
+        "source": "/home/abu/Documents/Personal/NativeScript/Groceries/SharePlate/platforms/android/src/main/res/drawable-xxxhdpi/logo_login.png"
+    },
+    {
+        "merged": "/home/abu/Documents/Personal/NativeScript/Groceries/SharePlate/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xxxhdpi/nonselected.png",
+        "source": "/home/abu/Documents/Personal/NativeScript/Groceries/SharePlate/platforms/android/src/main/res/drawable-xxxhdpi/nonselected.png"
+    },
+    {
+        "merged": "/home/abu/Documents/Personal/NativeScript/Groceries/SharePlate/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xxxhdpi/pear.png",
+        "source": "/home/abu/Documents/Personal/NativeScript/Groceries/SharePlate/platforms/android/src/main/res/drawable-xxxhdpi/pear.png"
+    },
+    {
+        "merged": "/home/abu/Documents/Personal/NativeScript/Groceries/SharePlate/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xxxhdpi/banana.png",
+        "source": "/home/abu/Documents/Personal/NativeScript/Groceries/SharePlate/platforms/android/src/main/res/drawable-xxxhdpi/banana.png"
+    },
+    {
+        "merged": "/home/abu/Documents/Personal/NativeScript/Groceries/SharePlate/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xxxhdpi/logo_signup.png",
+        "source": "/home/abu/Documents/Personal/NativeScript/Groceries/SharePlate/platforms/android/src/main/res/drawable-xxxhdpi/logo_signup.png"
+    },
+    {
+        "merged": "/home/abu/Documents/Personal/NativeScript/Groceries/SharePlate/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xxxhdpi/recent.png",
+        "source": "/home/abu/Documents/Personal/NativeScript/Groceries/SharePlate/platforms/android/src/main/res/drawable-xxxhdpi/recent.png"
+    },
+    {
+        "merged": "/home/abu/Documents/Personal/NativeScript/Groceries/SharePlate/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xxxhdpi/checked_white.png",
+        "source": "/home/abu/Documents/Personal/NativeScript/Groceries/SharePlate/platforms/android/src/main/res/drawable-xxxhdpi/checked_white.png"
+    },
+    {
+        "merged": "/home/abu/Documents/Personal/NativeScript/Groceries/SharePlate/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xxxhdpi/unchecked.png",
+        "source": "/home/abu/Documents/Personal/NativeScript/Groceries/SharePlate/platforms/android/src/main/res/drawable-xxxhdpi/unchecked.png"
+    },
+    {
+        "merged": "/home/abu/Documents/Personal/NativeScript/Groceries/SharePlate/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xxxhdpi/apple.png",
+        "source": "/home/abu/Documents/Personal/NativeScript/Groceries/SharePlate/platforms/android/src/main/res/drawable-xxxhdpi/apple.png"
+    },
+    {
+        "merged": "/home/abu/Documents/Personal/NativeScript/Groceries/SharePlate/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xxxhdpi/add.png",
+        "source": "/home/abu/Documents/Personal/NativeScript/Groceries/SharePlate/platforms/android/src/main/res/drawable-xxxhdpi/add.png"
+    },
+    {
+        "merged": "/home/abu/Documents/Personal/NativeScript/Groceries/SharePlate/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xxxhdpi/delete.png",
+        "source": "/home/abu/Documents/Personal/NativeScript/Groceries/SharePlate/platforms/android/src/main/res/drawable-xxxhdpi/delete.png"
+    },
+    {
+        "merged": "/home/abu/Documents/Personal/NativeScript/Groceries/SharePlate/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xxxhdpi/unchecked_white.png",
+        "source": "/home/abu/Documents/Personal/NativeScript/Groceries/SharePlate/platforms/android/src/main/res/drawable-xxxhdpi/unchecked_white.png"
+    },
+    {
+        "merged": "/home/abu/Documents/Personal/NativeScript/Groceries/SharePlate/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xxxhdpi/selected.png",
+        "source": "/home/abu/Documents/Personal/NativeScript/Groceries/SharePlate/platforms/android/src/main/res/drawable-xxxhdpi/selected.png"
+    },
+    {
+        "merged": "/home/abu/Documents/Personal/NativeScript/Groceries/SharePlate/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xxxhdpi/checked.png",
+        "source": "/home/abu/Documents/Personal/NativeScript/Groceries/SharePlate/platforms/android/src/main/res/drawable-xxxhdpi/checked.png"
+    },
+    {
+        "merged": "/home/abu/Documents/Personal/NativeScript/Groceries/SharePlate/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xxxhdpi/icon.png",
+        "source": "/home/abu/Documents/Personal/NativeScript/Groceries/SharePlate/platforms/android/src/main/res/drawable-xxxhdpi/icon.png"
+    },
+    {
+        "merged": "/home/abu/Documents/Personal/NativeScript/Groceries/SharePlate/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xxxhdpi/menu.png",
+        "source": "/home/abu/Documents/Personal/NativeScript/Groceries/SharePlate/platforms/android/src/main/res/drawable-xxxhdpi/menu.png"
+    }
+]
