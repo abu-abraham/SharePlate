@@ -50,8 +50,9 @@ def get_specific(self,uid):
     queryset = Users.objects.get(uid=uid)
     org = queryset.organization
     collegues = Users.objects.filter(organization=org)
-    items = Foodlist.objects.filter(chef_id__in = collegues).exclude(count=0).filter(event_time__gte=datetime.datetime.now()).filter(pub_date=datetime.date.today());
-    sorted_list = user_preference.get_sorted_list(items.values(),user_preference.spice_preference(uid));
+    items = Foodlist.objects.filter(chef_id__in = collegues).exclude(count=0).filter(event_time__gte=datetime.datetime.now());#.filter(pub_date=datetime.date.today())
+    sorted_list = user_preference.get_sorted_list_spice_value(items.values(), user_preference.spice_preference(uid));
+    sorted_list = user_preference.get_sorted_list_cusine_value(sorted_list,user_preference.user_cusine_scores(uid));
     response = JsonResponse(sorted_list,safe=False)
     return response;
 
@@ -123,4 +124,5 @@ def get_spiceValue(self,uid):
     return JsonResponse({'val':user_preference.spice_preference(uid)})
 
 def get_cusineValue(self,uid):
+    print user_preference.user_cusine_scores(uid)
     return JsonResponse({'val':user_preference.user_cusine_scores(uid)})

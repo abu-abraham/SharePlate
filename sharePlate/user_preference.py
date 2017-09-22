@@ -17,7 +17,7 @@ def spice_preference(user_id):
     return sp_level/len(historical_buys)
 
 
-def get_sorted_list(values,level):
+def get_sorted_list_spice_value(values, level):
     A = {}
     for index, item in enumerate(values):
         A.setdefault(abs(item['spice_level']-level),[]).append(index)
@@ -30,6 +30,22 @@ def get_sorted_list(values,level):
             sorted_val.append(values[index])
     return sorted_val
 
+def get_sorted_list_cusine_value(values, cusine_map):
+    A = {}
+    print values
+    for index, item in enumerate(values):
+        if item['cusine'] in cusine_map:
+            A.setdefault((1+cusine_map[item['cusine']]),[]).append(index)
+        else:
+            A.setdefault(1,[]).append(index)
+    i=0
+    sorted_val = []
+    keylist = A.keys()
+    keylist.sort()
+    for key in keylist:
+        for index in A[key]:
+            sorted_val.append(values[index])
+    return sorted_val
 
 
 def user_cusine_scores(user_id):
@@ -43,14 +59,13 @@ def user_cusine_scores(user_id):
     for buy in historical_buys:
         try:
             food = Foodlist.objects.get(item_id=283); #buy
-            print food.cusine
-            if cusine_map.get(food.cusine):
-                print "Here"
+            if food.cusine in cusine_map:
                 cusine_map[food.cusine] = (cusine_map[food.cusine] + 1)
             else:
                 cusine_map[food.cusine] = 0;
         except:
             pass
+    for key in cusine_map:
+        cusine_map[key] = cusine_map[key]/float(len(historical_buys))
 
-
-    print cusine_map
+    return cusine_map
