@@ -25,14 +25,14 @@ SECRET_KEY = '2tx9z^uo33_iuj+p7!weh%%x85178efvv-xoue=gif-j=clo@8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
 
 INSTALLED_APPS = [
     'rest_framework',
-    'sharePLate.apps.ShareplateConfig',
+    'sharePlate.apps.ShareplateConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

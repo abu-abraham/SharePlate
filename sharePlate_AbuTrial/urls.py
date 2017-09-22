@@ -15,11 +15,13 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-from sharePLate import views
+from sharePlate import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^userlist/', views.get_users),
+    url(r'^purchases/', views.get_purchases),
+    url(r'^spiceVal/(?P<uid>[0-9]+)/$', views.get_spiceValue),
     url(r'^itemlist/', views.get_items),
     url(r'^login/(?P<JSobject>.+)/$', views.update_userInfo),
     url(r'^item/(?P<JSobject>.+)/$', views.add_item),

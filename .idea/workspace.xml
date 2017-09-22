@@ -2,7 +2,99 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff5c6fd5-146c-46e9-9232-f610b2f47c92" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sharePlate/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sharePlate/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sharePlate/user_preference.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/ Alcohol Only" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/ American" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/ Asian" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/ Brazilian" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/ Burger" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/ Chinese" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/ Desserts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/ Fish &amp; chips" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/ Gourmet Burger" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/ Gourmet Chicken" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/ Greek" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/ Indian" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/ Italian" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/ Japanese" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/ Korean" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/ Malaysian" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/ Mediterranean" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/ Mexican" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/ Middle Eastern" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/ Modern Australian" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/ Nepalese" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/ Pakistani" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/ Pizza" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/ Seafood" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/ Snack" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/ Thai" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/ Turkish" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/ Vegetarian" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/ Vietnamese" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/.idea/Text_Extraction.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/Alcohol Only" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/American" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/Asian" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/Brazilian" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/Burger" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/Chinese" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/Desserts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/Gourmet Burger" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/Gourmet Chicken" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/Greek" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/Halal" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/Indian" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/Italian" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/Japanese" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/Korean" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/Malaysian" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/Mediterranean" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/Mexican" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/Middle Eastern" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/Modern Australian" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/Nepalese" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/Pakistani" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/Parser.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/Pizza" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/Seafood" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/Snack" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/Thai" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/Turkish" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/Vegetarian" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/Vietnamese" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/abuTrial2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/abuTrial3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/auto_classifer_using_bing.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/classify.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/cusine_list" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/extraction.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/food_items" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/halal" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/input_cusine_mapper.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/list_waste" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Text_Extraction/refined_list" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sharePLate/migrations/0002_auto_20170904_0900.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sharePLate/__init__.py" afterPath="$PROJECT_DIR$/services/input_cusine_mapper.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sharePLate/admin.py" afterPath="$PROJECT_DIR$/sharePlate/admin.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sharePLate/apps.py" afterPath="$PROJECT_DIR$/sharePlate/apps.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sharePLate/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/sharePlate/migrations/0001_initial.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sharePLate/migrations/__init__.py" afterPath="$PROJECT_DIR$/services/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sharePLate/models.py" afterPath="$PROJECT_DIR$/sharePlate/models.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sharePLate/serializer.py" afterPath="$PROJECT_DIR$/sharePlate/serializer.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sharePLate/tests.py" afterPath="$PROJECT_DIR$/sharePlate/tests.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sharePLate/views.py" afterPath="$PROJECT_DIR$/sharePlate/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sharePlate_AbuTrial/settings.py" afterPath="$PROJECT_DIR$/sharePlate_AbuTrial/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sharePlate_AbuTrial/urls.py" afterPath="$PROJECT_DIR$/sharePlate_AbuTrial/urls.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,32 +108,46 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sharePlate_AbuTrial/settings.py">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sharePlate/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="60" column="4" lean-forward="true" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
+              <folding>
+                <element signature="e#24#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_preference.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sharePlate/user_preference.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="792">
+              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage.py">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sharePLate/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1479">
-              <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sharePLate/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="888">
-              <caret line="48" column="40" lean-forward="false" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -50,18 +156,20 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sharePlate_AbuTrial/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-              <folding />
+            <state relative-caret-position="696">
+              <caret line="29" column="54" lean-forward="false" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="54" />
+              <folding>
+                <element signature="e#653#685#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="serializer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sharePLate/serializer.py">
+        <entry file="file://$PROJECT_DIR$/sharePlate/serializer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="192">
+              <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -69,17 +177,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sharePLate/tests.py">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sharePlate/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="456">
+              <caret line="30" column="6" lean-forward="false" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sharePlate/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+              <folding>
+                <element signature="e#24#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>birth</find>
+      <find>cusine_li</find>
+      <find>prob_cuisine_item</find>
+      <find>user_pre</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -87,14 +222,29 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/sharePlate_AbuTrial/settings.py" />
         <option value="$PROJECT_DIR$/sharePLate/models.py" />
+        <option value="$PROJECT_DIR$/sharePLate/serializer.py" />
+        <option value="$PROJECT_DIR$/Text_Extraction/__init__.py" />
+        <option value="$PROJECT_DIR$/Text_Extraction/input_cusine_mapper.py" />
+        <option value="$PROJECT_DIR$/Text_Extraction/extraction.py" />
         <option value="$PROJECT_DIR$/sharePLate/views.py" />
+        <option value="$PROJECT_DIR$/sharePlate/admin.py" />
+        <option value="$PROJECT_DIR$/services/__init__.py" />
+        <option value="$PROJECT_DIR$/services/input_cusine_mapper.py" />
+        <option value="$PROJECT_DIR$/sharePlate/serializer.py" />
+        <option value="$PROJECT_DIR$/sharePlate/models.py" />
+        <option value="$PROJECT_DIR$/sharePlate_AbuTrial/urls.py" />
+        <option value="$PROJECT_DIR$/sharePlate/views.py" />
+        <option value="$PROJECT_DIR$/sharePlate/user_preference.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="3200" />
-    <option name="height" value="1800" />
+    <option name="x" value="107" />
+    <option name="y" value="36" />
+    <option name="width" value="3093" />
+    <option name="height" value="1764" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -111,6 +261,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -147,13 +298,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sharePLate" />
+              <option name="myItemId" value="sharePlate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SharePlate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SharePlate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -312,20 +476,20 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="3200" height="1800" extended-state="6" />
+    <frame x="107" y="36" width="3093" height="1764" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24146649" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24141315" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969698" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -335,11 +499,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="5" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sharePLate/serializer.py">
+    <entry file="file://$PROJECT_DIR$/sharePlate/serializer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -349,27 +515,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sharePLate/tests.py">
+    <entry file="file://$PROJECT_DIR$/sharePlate/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sharePLate/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="888">
-          <caret line="48" column="40" lean-forward="false" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sharePlate_AbuTrial/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -381,11 +530,388 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sharePLate/views.py">
+    <entry file="file://$PROJECT_DIR$/sharePlate/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1479">
-          <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+        <state relative-caret-position="1176">
+          <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharePlate/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="888">
+          <caret line="48" column="40" lean-forward="false" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharePlate_AbuTrial/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="23" column="56" lean-forward="false" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+          <folding>
+            <element signature="e#653#685#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharePlate/serializer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharePlate/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharePlate_AbuTrial/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharePlate/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharePlate/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="888">
+          <caret line="48" column="40" lean-forward="false" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharePlate_AbuTrial/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="23" column="56" lean-forward="false" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+          <folding>
+            <element signature="e#653#685#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharePlate/serializer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharePlate/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharePlate_AbuTrial/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharePlate/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharePlate/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="888">
+          <caret line="48" column="40" lean-forward="false" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharePlate_AbuTrial/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="23" column="56" lean-forward="false" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+          <folding>
+            <element signature="e#653#685#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharePlate/serializer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharePlate/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharePlate_AbuTrial/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharePlate/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharePlate/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="888">
+          <caret line="48" column="40" lean-forward="false" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharePlate_AbuTrial/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="23" column="56" lean-forward="false" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+          <folding>
+            <element signature="e#653#685#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharePlate/serializer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharePlate/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharePlate_AbuTrial/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharePlate/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharePlate/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="888">
+          <caret line="48" column="40" lean-forward="false" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharePlate_AbuTrial/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding>
+            <element signature="e#653#685#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharePlate/serializer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharePlate/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharePlate/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classify.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Text_Extraction/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/Text_Extraction/extraction.py" />
+    <entry file="file://$PROJECT_DIR$/Text_Extraction/input_cusine_mapper.py" />
+    <entry file="file://$PROJECT_DIR$/Text_Extraction/Parser.py" />
+    <entry file="file://$PROJECT_DIR$/sharePlate/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharePlate/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/input_cusine_mapper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharePlate/serializer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharePlate/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="30" column="6" lean-forward="false" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharePlate_AbuTrial/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="29" column="54" lean-forward="false" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="54" />
+          <folding>
+            <element signature="e#653#685#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharePlate/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="60" column="4" lean-forward="true" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharePlate_AbuTrial/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharePlate/user_preference.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
