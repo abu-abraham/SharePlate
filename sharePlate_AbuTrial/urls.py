@@ -22,6 +22,7 @@ urlpatterns = [
     url(r'^userlist/', views.get_users),
     url(r'^purchases/', views.get_purchases),
     url(r'^spiceVal/(?P<uid>[0-9]+)/$', views.get_spiceValue),
+    url(r'^cusineVal/(?P<uid>[0-9]+)/$', views.get_cusineValue),
     url(r'^itemlist/', views.get_items),
     url(r'^login/(?P<JSobject>.+)/$', views.update_userInfo),
     url(r'^item/(?P<JSobject>.+)/$', views.add_item),
