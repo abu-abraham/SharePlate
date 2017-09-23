@@ -58,10 +58,11 @@ class Purchases (models.Model):
     user = models.ForeignKey(Users,on_delete=models.CASCADE)
     item = models.ForeignKey(Foodlist,on_delete=models.CASCADE)
     completed = models.BooleanField(default=False);
+    review = models.CharField(max_length=500)
 
 class Badge (models.Model):
     user = models.ForeignKey(Users,on_delete=models.CASCADE)
-    badge = models.CharField(max_length=15);
+    badge = models.IntegerField(default=0);
 
 
 

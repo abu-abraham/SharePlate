@@ -20,4 +20,4 @@ class PurchasesSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Purchases;
-        fields = ('user','item','completed');
+        fields = ('user','item','completed','review');

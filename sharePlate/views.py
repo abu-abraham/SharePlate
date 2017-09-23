@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
+from django.core.exceptions import ObjectDoesNotExist
 from django.shortcuts import render
 
 # Create your views here.
@@ -21,6 +22,7 @@ sys.path.append("/home/abu/Documents/Personal/SharePlate/services")
 sys.path.append("/home/abu/Documents/Personal/SharePlate/data")
 import input_cusine_mapper
 import user_preference
+import chef_updates
 
 def index(request):
     return HttpResponse("Hello, world. You're at the polls index.")
@@ -58,8 +60,11 @@ def get_specific(self,uid):
 
 def set_order(self,uid,item_id):
     try:
-        user = Users.objects.get(uid=uid)
-        item = Foodlist.objects.get(item_id=item_id)
+        try:
+            user = Users.objects.get(uid=uid)
+            item = Foodlist.objects.get(item_id=item_id)
+        except ObjectDoesNotExist:
+            return JsonResponse({'result':'failure'})
         item.count = item.count - 1
         item.save()
         seller = Users.objects.get(uid=item.chef_id.uid)
@@ -119,6 +124,29 @@ def add_item(self,JSobject):
         return get_users(self);
 
     return get_items(self);
+
+def add_comment(self,JSobject):
+    comment_object = json.loads(JSobject, object_hook=lambda d: namedtuple('X', d.keys())(*d.values()))
+
+
+    try:
+        user_id = comment_object.id
+        food_id = comment_object.food_id
+        try:
+            user = Users.objects.get(uid=user_id)
+            food = Foodlist.objects.get(item_id=food_id)
+            entry = Purchases.objects.get(user=user, item =food)
+        except Exception as e:
+            return JsonResponse({'Error': e.message});
+        entry.review = comment_object.comment
+        entry.save();
+        chef_updates.update_ratings(entry.item.chef_id,entry.review)
+
+
+    except Exception as e:
+        return JsonResponse({'Error': e.message});
+
+    return get_purchases(self);
 
 def get_spiceValue(self,uid):
     return JsonResponse({'val':user_preference.spice_preference(uid)})
