@@ -51,8 +51,11 @@ def get_purchases(self):
 def get_specific(self,uid):
     queryset = Users.objects.get(uid=uid)
     org = queryset.organization
+    print org
     collegues = Users.objects.filter(organization=org)
+    print len(collegues)
     items = Foodlist.objects.filter(chef_id__in = collegues).exclude(count=0).filter(event_time__gte=datetime.datetime.now());#.filter(pub_date=datetime.date.today())
+    print len(items)
     sorted_list = user_preference.get_sorted_list_spice_value(items.values(), user_preference.spice_preference(uid));
     sorted_list = user_preference.get_sorted_list_cusine_value(sorted_list,user_preference.user_cusine_scores(uid));
     response = JsonResponse(sorted_list,safe=False)
@@ -101,7 +104,7 @@ def update_userInfo(self,JSobject):
         p.save();
     try:
         user = Users.objects.filter(uid=uid)
-        return get_specific(self,uid);
+        return get_items(self);
     except:
         return JsonResponse({'Error': 'error'});
 
@@ -112,14 +115,19 @@ def add_item(self,JSobject):
     try:
         user = Users.objects.get(uid=chef_id)
         spice_level = int(x.spice_level);
+
+        print "Item added"
         count = x.count
+        print "Item added1"
         price = int(x.price)
         name = x.item_name
+        print "Item added2"
         cusine = input_cusine_mapper.cusine_mapper(name);
+        print "Item added3"
         item_id = str(int(x.price*x.spice_level))
         p = Foodlist(item_id=item_id,spice_level=spice_level,desc=name,count=count,item_image=None,availability=True,pub_date=datetime.date.today(),price=price,chef_id=user,event_time=datetime.datetime.now().time(),event_location = "ANU Library",cusine=cusine);
         p.save();
-
+        print "Item added4"
     except:
         return get_users(self);
 

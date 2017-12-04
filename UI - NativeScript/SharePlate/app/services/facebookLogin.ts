@@ -31,10 +31,7 @@ class UserDetails{
 
 class FacebookLogin {
     accessToken: string;
-    userId: string;
-    username: string;
-    avatarUrl: string;
-    userDetails : UserDetails;
+    static userDetails : UserDetails;
 
     private get_latest_school(schools: any): string{
         var current_year  = new Date().getFullYear();
@@ -90,7 +87,6 @@ class FacebookLogin {
     public login ():Promise<any> {
 
         var p = new Promise<any>((resolve, reject) => { 
-            console.log("Here")        
             tnsOAuthModule.login().then(()=>{
                 console.log("Logged IN")
                 this.accessToken = tnsOAuthModule.accessToken();
@@ -98,9 +94,9 @@ class FacebookLogin {
                 http.getJSON("https://graph.facebook.com" + "/me?fields=id,name,picture,email,birthday,work,location,education&access_token=" + tnsOAuthModule.accessToken())
                 .then((res) => {
                     console.log("Got all info required")
-                    this.userDetails = <UserDetails>this.get_details_in_required_format((res));
-                    console.log(JSON.stringify(this.userDetails))
-                    fetch("http://afb2abe1.ngrok.io/login/"+JSON.stringify(this.userDetails))
+                    FacebookLogin.userDetails = <UserDetails>this.get_details_in_required_format((res));
+                    console.log(JSON.stringify(FacebookLogin.userDetails))
+                    fetch("https://1d01b2d2.ngrok.io/login/"+JSON.stringify(FacebookLogin.userDetails))
                     .then((r) => {
                          resolve(r);
                         })
@@ -114,6 +110,10 @@ class FacebookLogin {
     
         });
     return p;
+    }
+
+    public getUserDetails(){
+        return FacebookLogin.userDetails;
     }
 }
 

@@ -18,6 +18,7 @@ constructor(private router: Router){
         let navigationExtras: NavigationExtras = {
           queryParams: response
         };
+        console.log(response);
         this.router.navigate(["/list"],navigationExtras)
       }).catch(()=>{
           console.log("Error")
