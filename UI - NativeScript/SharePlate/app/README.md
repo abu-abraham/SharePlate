@@ -1,5 +1,3 @@
-# NativeScript Groceries Angular Template
+# NativeScript UI for sharePlate
 
-This repo serves as the starting point for building the [NativeScript Groceries sample](https://github.com/nativescript/sample-Groceries) as part of the [NativeScript Angular Getting Started Guide](https://docs.nativescript.org/angular/tutorial/ng-chapter-0).
-
-Please file any issues with this template on the [NativeScript/docs repository](https://github.com/nativescript/docs), which is where the tutorial content lives.
+This repo is build on top of the [NativeScript Groceries sample](https://github.com/nativescript/sample-Groceries). No flamboyant UI is in place for now. Which will be implemented later.
