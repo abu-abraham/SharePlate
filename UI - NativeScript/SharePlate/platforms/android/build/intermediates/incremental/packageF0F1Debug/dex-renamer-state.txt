@@ -1,4 +1,0 @@
-#Wed Sep 20 10:36:55 AEST 2017
-base.0=/home/abu/Documents/Personal/NativeScript/Groceries/SharePlate/platforms/android/build/intermediates/transforms/dex/F0F1/debug/folders/1000/1f/main
-renamed.0=classes.dex
-file.0=/home/abu/Documents/Personal/NativeScript/Groceries/SharePlate/platforms/android/build/intermediates/transforms/dex/F0F1/debug/folders/1000/1f/main/classes.dex
